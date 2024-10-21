@@ -1,9 +1,19 @@
 package observer;
 
+import subject.ISubject;
+import subject.Subject;
+
 public class CurrentConditionDisplay implements IObserver, IDisplayElement{
     private float temperature;
     private float humidity;
     private float pressure;
+    private Subject weather;
+
+
+    public CurrentConditionDisplay(ISubject weather) {
+        this.weather = (Subject) weather;
+        this.weather.registerObserver(this);
+    }
 
     @Override
     public void display() {
@@ -14,10 +24,10 @@ public class CurrentConditionDisplay implements IObserver, IDisplayElement{
     }
 
     @Override
-    public void update(float temperature, float humidity, float pressure) {
-            this.temperature= temperature;
-            this.humidity=humidity;
-            this.pressure= pressure;
+    public void update() {
+            this.temperature= this.weather.getTemperature();
+            this.humidity=this.weather.getHumidity();
+            this.pressure= this.weather.getPressure();
             this.display();
     }
 }
