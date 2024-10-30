@@ -1,20 +1,30 @@
-import observer.CurrentConditionDisplay;
-import observer.ForeCastDisplay;
-import subject.Subject;
+import beveragesinstance.DarkRoast;
+import beveragesinstance.Espresso;
+import beveragesinstance.HouseBlend;
+import condiments.Mocha;
+import condiments.Soy;
+import condiments.Whip;
+import starbuzzcoffee.Beverage;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
-        System.out.println("welcome to the Observer Pattern");
-        Subject subject = new Subject();
-        new CurrentConditionDisplay(subject);
-        new ForeCastDisplay(subject);
-        subject.setMeasurements(123.45f, 23.90f,45.36f);
+    public static void main(String[] args) {
+        System.out.println("*******************WELCOME TO THE DECORATOR PATTERN*******************************");
 
-        Thread.sleep(1000);
+        Beverage beverage = new Espresso();
+        System.out.println(beverage.getDescription()+ " $" +beverage.cost());
 
-        System.out.println("New data incoming");
-        subject.setMeasurements(23.89f, 40.50f, 700.50f);
+        Beverage beverage1 = new DarkRoast();
+        beverage1= new Mocha(beverage1);
+        beverage1= new Mocha(beverage1);
+        beverage1= new Whip(beverage1);
+        System.out.println(beverage1.getDescription() + " $" + beverage1.cost());
+
+        Beverage beverage2= new HouseBlend();
+        beverage2 = new Soy(beverage2);
+        beverage2= new Mocha(beverage2);
+        beverage2= new Whip(beverage2);
+        System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
 
     }
 }
