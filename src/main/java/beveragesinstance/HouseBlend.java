@@ -1,6 +1,7 @@
 package beveragesinstance;
 
 import starbuzzcoffee.Beverage;
+import starbuzzcoffee.Sizes;
 
 public class HouseBlend extends Beverage {
 
@@ -10,6 +11,17 @@ public class HouseBlend extends Beverage {
 
     @Override
     public double cost() {
-        return .89;
+        switch (this.getSize()){
+            case Sizes.TALL:
+                return .10;
+            case Sizes.GRANDE:
+                return .15;
+            case Sizes.VENTI:
+                return .20;
+            default:
+                System.out.println("not in options");
+                return 0;
+        }
     }
+
 }
