@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc796159-aedd-49a3-8c02-f921bb963f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/Sizes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaio/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beveragesinstance/DarkRoast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beveragesinstance/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beveragesinstance/HouseBlend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/condiments/Mocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/condiments/Soy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/condiments/Whip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/DarkRoast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/Espresso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beveragesinstance/HouseBlend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Mocha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Soy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/condiments/Whip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/Beverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/CondimentDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/starbuzzcoffee/Sizes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +52,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "decorator__patter__sizes__exercise",
+    "git-widget-placeholder": "decorator__pattern__javaio__decorator",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/andrestecpile/Desktop/git-repository/designpattern/src/main/java/Main.java",
     "project.structure.last.edited": "Modules",
