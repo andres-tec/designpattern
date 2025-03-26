@@ -1,29 +1,22 @@
-import javaio.LowerCaseInputStream;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.OutputStream;
+
+import java.util.logging.*;
+
 
 public class Main {
+    private static Logger outputmsj = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args)throws IOException {
-        System.out.println("*******************WELCOME TO THE DECORATOR PATTERN*******************************");
-        int c ;
-        try {
-            InputStream in =
-                    new LowerCaseInputStream(
-                            new BufferedInputStream(
-                                    new FileInputStream("src/main/resources/test.txt")
-                            )
-                    );
-            while ((c = in.read()) >= 0){
-                System.out.print((char) c);
-            }
-
-            in.close();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
+        OutputStream recordsLogs = new FileOutputStream(new File("/Users/andrestecpile/Desktop/git-repository/Logger-feb-23.txt"));
+        Formatter formatter = new SimpleFormatter();
+        StreamHandler streamHandler = new StreamHandler(recordsLogs,formatter);
+        outputmsj.addHandler(streamHandler);
+        System.out.println("*******************WELCOME TO THE SINGLETON PATTERN*******************************");
+        outputmsj.info("so far so good!");
+        outputmsj.info("it's going well!");
     }
 }
