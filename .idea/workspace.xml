@@ -5,28 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc796159-aedd-49a3-8c02-f921bb963f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanHighCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanMediumCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/light/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clientside/MyRemoteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballinterfaces/GumballMachineRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaclassonly/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serverside/MyRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serverside/MyRemoteImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverside/MyRemote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverside/MyRemoteImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/SingletonDoubleCheckedLocking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/SingletonEagerlyCreated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/SingletonMultiThreading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/Singleton_No_Thread_Safe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/NoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanHighCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanMediumCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/MacroCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/Stereo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoWithCDCommand.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +66,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.GumballMachineTestDrive.executor": "Run",
+    "Application.GumballMonitorTestDrive.executor": "Run",
     "Application.Main.executor": "Run",
+    "Maven.designpattern [clean].executor": "Run",
+    "Maven.designpattern [compile].executor": "Run",
+    "Maven.designpattern [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "the__command__pattern",
+    "git-widget-placeholder": "the__proxy__pattern-controlling__object__access",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/andrestecpile/Desktop/git-repository/designpattern/src/main/java/Main.java",
     "project.structure.last.edited": "Modules",
@@ -69,17 +83,50 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="clientside" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GumballMonitorTestDrive">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaclassonly.App" />
       <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaclassonly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gumballmachine.GumballMachineTestDrive" />
+      <module name="designpattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GumballMonitorTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gumballmachinereport.GumballMonitorTestDrive" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gumballmachinereport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GumballMonitorTestDrive" />
+        <item itemvalue="Application.GumballMachineTestDrive" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -103,8 +150,8 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>83</line>
+          <url>file://$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java</url>
+          <line>43</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
