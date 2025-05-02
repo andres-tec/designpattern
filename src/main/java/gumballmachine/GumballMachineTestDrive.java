@@ -1,6 +1,4 @@
-package gumballmachine;
-
-import gumballinterfaces.GumballMachineRemote;
+//package gumballmachine;
 
 import java.io.IOException;
 import java.rmi.Naming;
@@ -17,7 +15,7 @@ public class GumballMachineTestDrive {
      */
 
     public static void main(String[] args) {
-        args = new String[]{"austin.mightygumball.com", "100"};
+//        args = new String[]{"austin.mightygumball.com", "100"};
         System.out.println("*******************WELCOME TO THE PROXY PATTERN *******************************");
         GumballMachineRemote gumballMachine = null;
         int count;
@@ -31,7 +29,9 @@ public class GumballMachineTestDrive {
         try{
         count = Integer.parseInt(args[1]);
         gumballMachine = new GumballMachine(args[0], count);
-            Naming.rebind("//"+args[0]+"/gumballmachine",gumballMachine);
+            System.out.println("args " + args[0] +" " + args[1]);
+            Naming.rebind("//"+ args[0] +"/gumballmachine",gumballMachine);
+            System.out.println("couldn't success");
 //        gumballMachine.setState("Waiting for the quarter");
 //        GumballMonitor monitor = new GumballMonitor(gumballMachine);
 //        monitor.report();

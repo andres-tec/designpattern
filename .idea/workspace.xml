@@ -5,36 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc796159-aedd-49a3-8c02-f921bb963f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/clientside/MyRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballinterfaces/GumballMachineRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitorTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaclassonly/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serverside/MyRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serverside/MyRemoteImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serverside/MyRemote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serverside/MyRemoteImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMachineRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simpledemo/clientside/MyRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/Invoker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/NoCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/RemoteControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanHighCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingFanMediumCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/CeilingOffCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/ceilingfan/MacroCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/Light.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOffCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/light/LightOnCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/Stereo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoOffCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandpattern/stereo/StereoWithCDCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/MyRemoteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpledemo/clientside/MyRemoteClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballinterfaces/GumballMachineRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachine/NoQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/NoQuarterState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachine/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachine/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitorTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gumballmachinereport/GumballMonitorTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serverside/MyRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpledemo/serverside/MyRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serverside/MyRemoteImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpledemo/serverside/MyRemoteImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -66,12 +53,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
     "Application.GumballMachineTestDrive.executor": "Run",
     "Application.GumballMonitorTestDrive.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyRemoteClient.executor": "Run",
     "Maven.designpattern [clean].executor": "Run",
     "Maven.designpattern [compile].executor": "Run",
+    "Maven.designpattern [package].executor": "Run",
+    "Maven.designpattern [test].executor": "Run",
     "Maven.designpattern [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,15 +71,18 @@
     "onboarding.tips.debug.path": "/Users/andrestecpile/Desktop/git-repository/designpattern/src/main/java/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simpledemo.clientside" />
+      <recent name="gumballmachinereport" />
       <recent name="clientside" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GumballMonitorTestDrive">
+  <component name="RunManager" selected="Application.MyRemoteClient">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaclassonly.App" />
       <module name="designpattern" />
@@ -110,6 +104,8 @@
       </method>
     </configuration>
     <configuration name="GumballMonitorTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="gumballmachinereport.GumballMonitorTestDrive" />
       <module name="designpattern" />
       <extension name="coverage">
@@ -122,8 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyRemoteClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyRemoteClient" />
+      <module name="designpattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyRemoteClient" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.GumballMachineTestDrive" />
+      <item itemvalue="Application.GumballMonitorTestDrive" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyRemoteClient" />
         <item itemvalue="Application.GumballMonitorTestDrive" />
         <item itemvalue="Application.GumballMachineTestDrive" />
         <item itemvalue="Application.App" />
@@ -148,11 +158,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/condiments/Mocha.java</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/gumballmachine/GumballMachineTestDrive.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,6 +1,6 @@
-package gumballmachinereport;
+//package gumballmachinereport;
 
-import gumballinterfaces.GumballMachineRemote;
+import gumballmachine.GumballMachineRemote;
 
 import java.rmi.Naming;
 

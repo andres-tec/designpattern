@@ -1,6 +1,4 @@
-package gumballmachine;
-
-import gumballinterfaces.GumballMachineRemote;
+//package gumballmachine;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -9,7 +7,7 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
     private static final long serialVersionUID = 2L;
     private int count;
     private String location;
-    private State state;
+//    private State state;
 
     public GumballMachine(String location , int count)throws RemoteException {
         this.location = location;
@@ -24,7 +22,7 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
         return this.count;
     }
 
-    public State getState() {
-        return state;
-    }
+//    public State getState() {
+//        return state;
+//    }
 }

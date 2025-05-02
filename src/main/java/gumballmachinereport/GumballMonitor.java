@@ -1,7 +1,6 @@
-package gumballmachinereport;
+//package gumballmachinereport;
 
-import gumballinterfaces.GumballMachineRemote;
-import gumballmachine.GumballMachine;
+import gumballmachine.GumballMachineRemote;
 
 import java.rmi.RemoteException;
 

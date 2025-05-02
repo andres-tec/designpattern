@@ -1,4 +1,4 @@
-package serverside;
+//package simpledemo.serverside;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

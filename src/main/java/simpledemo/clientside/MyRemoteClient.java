@@ -1,6 +1,4 @@
-package clientside;
-
-import serverside.MyRemote;
+//package simpledemo.clientside;
 
 import java.rmi.Naming;
 
