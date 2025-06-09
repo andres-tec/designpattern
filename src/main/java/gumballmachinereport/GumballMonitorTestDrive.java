@@ -1,13 +1,9 @@
-//package gumballmachinereport;
-
-import gumballmachine.GumballMachineRemote;
-
 import java.rmi.Naming;
 
 public class GumballMonitorTestDrive {
 
     public static void main(String[] args){
-        String[] location = {"rmi://austin.mightygumball.com/gumballmachine"};
+        String[] location = {"rmi://localhost/gumballmachine"};
 //        "rmi://santafe.mightygumball.com/gumballmachine"
 //                ,"rmi://boulder.mightygumball.com/gumballmachine"
         GumballMonitor[] monitor = new GumballMonitor[location.length];
@@ -15,7 +11,6 @@ public class GumballMonitorTestDrive {
             try{
                 GumballMachineRemote machine = (GumballMachineRemote) Naming.lookup(location[i]);
                 monitor[i]= new GumballMonitor(machine);
-                System.out.println(monitor[i]);
             }catch (Exception ex){
                 ex.printStackTrace();
             }

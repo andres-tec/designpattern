@@ -1,7 +1,3 @@
-//package gumballmachinereport;
-
-import gumballmachine.GumballMachineRemote;
-
 import java.rmi.RemoteException;
 
 public class GumballMonitor {

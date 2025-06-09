@@ -31,15 +31,9 @@ public class GumballMachineTestDrive {
         gumballMachine = new GumballMachine(args[0], count);
             System.out.println("args " + args[0] +" " + args[1]);
             Naming.rebind("//"+ args[0] +"/gumballmachine",gumballMachine);
-            System.out.println("couldn't success");
-//        gumballMachine.setState("Waiting for the quarter");
-//        GumballMonitor monitor = new GumballMonitor(gumballMachine);
-//        monitor.report();
-
         }catch (Exception ex){
             ex.printStackTrace();
         }
-
 
     }
 }

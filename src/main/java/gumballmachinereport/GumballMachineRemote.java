@@ -1,7 +1,3 @@
-//package gumballmachinereport;
-
-import gumballmachine.State;
-
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 

@@ -7,7 +7,7 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
     private static final long serialVersionUID = 2L;
     private int count;
     private String location;
-//    private State state;
+    private State state;
 
     public GumballMachine(String location , int count)throws RemoteException {
         this.location = location;
@@ -15,14 +15,14 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
     }
 
     public String getLocation(){
-        return this.location;
+        return location;
     }
 
     public int getCount() {
-        return this.count;
+        return count;
     }
 
-//    public State getState() {
-//        return state;
-//    }
+    public State getState() {
+        return state;
+    }
 }
