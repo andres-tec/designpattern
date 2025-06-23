@@ -25,4 +25,8 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
     public State getState() {
         return state;
     }
+
+    public void setState(State state){
+        this.state = state;
+    }
 }
