@@ -1,4 +1,4 @@
-//package gumballmachinereport;//package gumballmachine;
+package controllingaccessproxy.gumballinterfaces.gumballmachine.gumballmachinereport;//package gumballmachinereport;//package gumballmachine;
 
 import java.io.Serializable;
 

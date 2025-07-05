@@ -1,4 +1,4 @@
-//package gumballmachine;
+package controllingaccessproxy.gumballinterfaces.gumballmachine;//package gumballmachine;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

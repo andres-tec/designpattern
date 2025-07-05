@@ -1,4 +1,4 @@
-//package gumballmachine;
+package controllingaccessproxy.gumballinterfaces.gumballmachine;//package gumballmachine;
 
 
 public class NoQuarterState implements State{

@@ -1,10 +1,12 @@
-//package simpledemo.serverside;
+package controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.serverside;//package simpledemo.serverside;
+
+import controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.clientside.MyRemote;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class MyRemoteImp extends UnicastRemoteObject implements MyRemote {
+public class MyRemoteImp extends UnicastRemoteObject implements controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.clientside.MyRemote {
     private static final long serialVersionUID =1L;
 
     public static void main(String[] args){

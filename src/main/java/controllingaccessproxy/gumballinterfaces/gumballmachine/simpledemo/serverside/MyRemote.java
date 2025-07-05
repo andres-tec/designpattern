@@ -1,4 +1,4 @@
-//package simpledemo.serverside;
+package controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.serverside;//package simpledemo.serverside;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

@@ -1,4 +1,4 @@
-//package simpledemo.clientside;
+package controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.clientside;//package simpledemo.clientside;
 
 import java.rmi.Naming;
 
@@ -9,7 +9,7 @@ public class MyRemoteClient {
 
     public void go(){
         try{
-            MyRemote service = (MyRemote) Naming.lookup("rmi://localhost/RemoteHello");
+            controllingaccessproxy.gumballinterfaces.gumballmachine.simpledemo.clientside.MyRemote service = (MyRemote) Naming.lookup("rmi://localhost/RemoteHello");
             String s = service.sayHello();
             System.out.println(s);
 

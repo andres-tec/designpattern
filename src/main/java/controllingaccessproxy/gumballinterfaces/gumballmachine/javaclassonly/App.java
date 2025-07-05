@@ -1,4 +1,4 @@
-package javaclassonly;
+package controllingaccessproxy.gumballinterfaces.gumballmachine.javaclassonly;
 
 public class App {
 

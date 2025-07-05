@@ -1,3 +1,7 @@
+package controllingaccessproxy.gumballinterfaces.gumballmachine.gumballmachinereport;
+
+import controllingaccessproxy.gumballinterfaces.gumballmachine.GumballMachineRemote;
+
 import java.rmi.RemoteException;
 
 public class GumballMonitor {

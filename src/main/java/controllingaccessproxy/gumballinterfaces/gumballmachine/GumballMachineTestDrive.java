@@ -1,4 +1,4 @@
-//package gumballmachine;
+package controllingaccessproxy.gumballinterfaces.gumballmachine;//package gumballmachine;
 
 import java.io.IOException;
 import java.rmi.Naming;
@@ -30,7 +30,7 @@ public class GumballMachineTestDrive {
         count = Integer.parseInt(args[1]);
         gumballMachine = new GumballMachine(args[0], count);
             System.out.println("args " + args[0] +" " + args[1]);
-            Naming.rebind("//"+ args[0] +"/gumballmachine",gumballMachine);
+            Naming.rebind("//"+ args[0] + "/controllingaccessproxy/gumballinterfaces/gumballmachine",gumballMachine);
         }catch (Exception ex){
             ex.printStackTrace();
         }
